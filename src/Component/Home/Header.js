@@ -1,4 +1,10 @@
-import React from 'react';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Video from "../Image/180419_Boxing_15_06.mp4"
 
 const Header = () => {
@@ -14,7 +20,7 @@ const Header = () => {
             quam possimus numquam sunt ab qui optio mollitia consequatur debitis
             incidunt nulla!
           </p>
-          <button className="btn-main">JOIN US</button>
+          <button className="btn-main">JOIN US </button>
         </div>
         <div className="col-md-6  py-5 d-flex align-items-center">
           <video controls autoPlay  loop

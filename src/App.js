@@ -5,6 +5,9 @@ import Home from "./Component/Home/Home";
 import OurClasses from "./Component/OurClasses/OurClasses";
 import Pricing from "./Component/Pricing/Pricing";
 import AdvanceGym from "./Component/AdvanceGym/AdvanceGym";
+import FirstPart from './Component/Payment/FirstPart';
+
+
 
 function App() {
   return (
@@ -16,6 +19,13 @@ function App() {
         <Route path="/service">
           <AdvanceGym />
         </Route>
+        <Route path="/purchase">
+        <Pricing></Pricing>
+        </Route>
+        <Route path="/payment">
+         <FirstPart></FirstPart>
+          </Route>
+
         <Route path="/pricing">
           <Pricing />
         </Route>

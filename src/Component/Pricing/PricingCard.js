@@ -14,7 +14,7 @@ const PricingCard = ({cls, price, title}) => {
                 <li>Outstanding</li>
                 <li>Happy Customer</li>
             </ul>
-            <button className="btn-main">PURCHASE</button>
+            <button className="btn-main"><a href="/payment">PURCHASE</a></button>
           </div>
         </div>
     );

@@ -74,7 +74,7 @@ const AdvanceGym = () => {
                     </div>
                 </div>
                 <div className="ml-auto">
-                    <button className="join_btn"> JOIN US </button>
+                    <button className="join_btn"> <a href="/purchase">JOIN US </a> </button>
                 </div>
             </div>
         </div>
