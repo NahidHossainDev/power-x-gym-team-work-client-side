@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Component/Home/Home";
 import OurClasses from "./Component/OurClasses/OurClasses";
 import Pricing from "./Component/Pricing/Pricing";
+import AdvanceGym from "./Component/AdvanceGym/AdvanceGym";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Switch>
         <Route path="/ourClasses">
           <OurClasses />
+        </Route>
+        <Route path="/service">
+          <AdvanceGym />
         </Route>
         <Route path="/pricing">
           <Pricing />
